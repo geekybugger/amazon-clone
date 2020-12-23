@@ -1,0 +1,86 @@
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #131921;
+  position: sticky;
+  color: #fff;
+  top: 0;
+  z-index: 100;
+}
+
+.button {
+  background: none;
+  text-decoration: none;
+  border: none;
+  padding: 10px;
+}
+
+.ind {
+  background: url(../../assets/ind_flag.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 60%;
+}
+
+.header__logo {
+  width: 100px;
+  object-fit: contain;
+  margin: 0 20px;
+  margin-top: 18px;
+}
+
+.header__search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 24px;
+}
+
+.header__searchInput {
+  width: 100%;
+  padding: 10px;
+  height: 12px;
+  border: 3px solid #cd9042;
+}
+
+/* .header__searchIcon {
+  padding: 5px;
+  height: 22px !important;
+} */
+
+.header__searchButton {
+  padding: 2.8px;
+  margin: 0;
+  background-color: #cd9042;
+  border: 3px solid #cd9042;
+  border-radius: 0px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #fff;
+}
+
+.header__option1 {
+  font-size: 12px;
+}
+
+.header__option2 {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.header__optionBasket > span {
+  color: #fff;
+  align-items: center;
+  font-size: 20px;
+}
